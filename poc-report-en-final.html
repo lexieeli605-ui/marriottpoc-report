@@ -134,7 +134,7 @@ body{font-family:"Helvetica Neue",Helvetica,-apple-system,BlinkMacSystemFont,"Pi
 .chapter-page.active .chapter-sub{opacity:1;transform:translateY(0);transition-delay:.4s}
 .chapter-page.active .chapter-line{opacity:1;transform:translateY(0);transition-delay:.55s}
 
-/* Contents页 */
+/* ContentsPage */
 .toc-list{list-style:none;padding:0;max-width:640px;width:100%;margin:0 auto}
 .toc-item{display:flex;align-items:center;gap:18px;padding:16px 0;border-bottom:1px solid rgba(255,255,255,.05);cursor:pointer;transition:all .4s;opacity:0;transform:translateX(-16px)}
 .toc-item.vis{opacity:1;transform:translateX(0)}
@@ -219,7 +219,7 @@ footer{text-align:center;padding:16px;font-size:11px;color:var(--t3);background:
 @media(max-width:768px){
   :root{--pad-x:20px;--pad-top:60px;--pad-bot:24px}
 
-  /* Page allows overflow beyond viewportHigh度，Content not trimmed */
+  /* Page allows overflow beyond viewport, Content not trimmed */
   html{scroll-snap-type:none!important}
   .page{min-height:auto!important;height:auto!important;padding-top:60px!important;padding-bottom:24px!important;scroll-snap-align:none!important}
 
@@ -310,7 +310,7 @@ footer{text-align:center;padding:16px;font-size:11px;color:var(--t3);background:
   /* Dimension Card */
   .dim-card{padding:12px!important}
 
-  /* Four-scenario navigationCardsMaintain2列 */
+  /* Four-scenario navigationCardsMaintain2List */
   .page>div[style*="1fr 1fr 1fr 1fr"]{grid-template-columns:1fr 1fr!important}
 
   /* POCValidationpage'sflexCards */
@@ -320,7 +320,7 @@ footer{text-align:center;padding:16px;font-size:11px;color:var(--t3);background:
   /* Quote Block */
   .quote{padding:10px 14px!important;font-size:11px!important}
 
-  /* DataStatistics小CardsMaintain2列 */
+  /* DataStatisticsSmallCardsMaintain2List */
   div[style*="display:flex;gap:10px"]>div[style*="flex:1"]{min-width:0!important}
 }
 @media print{.nav,.page-ind,.page-counter,.page-arrows{display:none}.page{min-height:auto;page-break-after:always}}
@@ -397,26 +397,26 @@ footer{text-align:center;padding:16px;font-size:11px;color:var(--t3);background:
 <section class="page chapter-page" id="p2">
   <div class="chapter-num">01</div>
   <div class="chapter-label">CHAPTER ONE</div>
-  <h2 class="chapter-title">POC Research与<span class="gl">EffectsValidation</span></h2>
+  <h2 class="chapter-title">POC Research <span class="gl">&</span> <span class="gl">EffectsValidation</span></h2>
   <p class="chapter-sub">TwoPilot HotelsIn-depth research，Panoramic scan of six major business pain points，Four major scenarios POC Closed-loop validation</p>
   <div class="chapter-line"></div>
 </section>
 
-<!-- ===== P3: Research coreGoal与Methods（FirstpartHome） ===== -->
+<!-- ===== P3: Research coreGoal <span class="gl">&</span> Methods（FirstpartHome） ===== -->
 <section class="page" id="p3" style="padding-top:68px;padding-bottom:28px">
   <div class="stag">Research Methods</div>
   <h2 class="stitle" style="font-size:26px;margin-bottom:6px">Core Research Objectives & <span class="gl">Methods</span></h2>
   <p class="sdesc" style="margin-bottom:18px">Validate Three Hypotheses · Four-Dimensional Deep Research</p>
 
   <div style="display:grid;grid-template-columns:1.4fr .6fr;gap:16px;flex:1;min-height:0;align-items:start">
-    <!-- Left侧 -->
+    <!-- LeftSide -->
     <div style="display:flex;flex-direction:column;gap:14px">
       <div style="background:var(--card);border:1px solid rgba(196,163,90,.12);border-radius:12px;padding:18px">
         <div style="font-size:12px;font-weight:700;color:var(--gold);margin-bottom:12px;letter-spacing:1px">Three Core Hypotheses</div>
         <div style="display:flex;flex-direction:column;gap:8px">
           <div style="display:flex;gap:8px;align-items:flex-start">
             <div style="flex-shrink:0;width:20px;height:20px;border-radius:50%;background:var(--red);color:#fff;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:800">1</div>
-            <p style="font-size:12px;color:var(--t2);line-height:1.5;margin:0">DingTalk AI Can accurately hitMarriottFrontline mostHigh频、Most representative business pain points？</p>
+            <p style="font-size:12px;color:var(--t2);line-height:1.5;margin:0">DingTalk AI Can accurately hitMarriottFrontline mostHighFrequency、Most representative business pain points？</p>
           </div>
           <div style="display:flex;gap:8px;align-items:flex-start">
             <div style="flex-shrink:0;width:20px;height:20px;border-radius:50%;background:var(--red);color:#fff;display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:800">2</div>
@@ -430,12 +430,12 @@ footer{text-align:center;padding:16px;font-size:11px;color:var(--t3);background:
       </div>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
         <div class="dim-card"><div class="dim-icon">&#x1F3E8;</div><div class="dim-title">Sheraton Xixi</div><div class="dim-sub">20+ In-depth interviews<br>Covering all departments</div></div>
-        <div class="dim-card"><div class="dim-icon">&#x1F3E8;</div><div class="dim-title">Qianjiang Marriott</div><div class="dim-sub">12 场HighManagement interviews<br>Focus HR 与Approvals</div></div>
+        <div class="dim-card"><div class="dim-icon">&#x1F3E8;</div><div class="dim-title">Qianjiang Marriott</div><div class="dim-sub">12 FieldHighManagement interviews<br>Focus HR  <span class="gl">&</span> Approvals</div></div>
         <div class="dim-card"><div class="dim-icon">&#x1F4CA;</div><div class="dim-title">Data Analysis</div><div class="dim-sub">Operating reports / Attendance<br>Guest complaintsWork Order</div></div>
         <div class="dim-card"><div class="dim-icon">&#x1F50D;</div><div class="dim-title">Benchmarking research</div><div class="dim-sub">Industry best practices<br>Digital transformation cases</div></div>
       </div>
     </div>
-    <!-- Right侧：两sheetsPhotos（Shrink to fit single page） -->
+    <!-- RightSide：TwosheetsPhotos（Shrink to fit single page） -->
     <div style="display:flex;flex-direction:column;gap:8px;height:100%;min-height:0">
       <div style="background:var(--card);border:1px solid rgba(196,163,90,.12);border-radius:10px;padding:4px;overflow:hidden;max-height:160px;display:flex">
         <img src="research-meeting.png" alt="Research Workshops" style="width:100%;object-fit:cover;border-radius:7px;display:block">
@@ -455,27 +455,27 @@ footer{text-align:center;padding:16px;font-size:11px;color:var(--t3);background:
   <div class="cgrid" style="grid-template-columns:repeat(3,1fr);gap:14px">
     <div class="ccard" style="border-top:3px solid var(--red);padding:18px">
       <h3 style="font-size:13px;color:var(--red-l);margin-bottom:8px">Front desk and housekeeping operations</h3>
-      <p style="font-size:11px;line-height:1.65">&#10005; Manual reports · Night shiftTime-consuming 2h<br>&#10005; 4+ SystemData silos<br>&#10005; SettlementComplex · Error rate 3.2%<br>&#10005; Guest complaintsRecords难Trace<br>&#10005; HR 每MonthSpends 3-5 itemsWork days<br>&#10005; New stores cannot quicklyReplicate</p>
+      <p style="font-size:11px;line-height:1.65">&#10005; Manual reports · Night shiftTime-consuming 2h<br>&#10005; 4+ SystemData silos<br>&#10005; SettlementComplex · Error rate 3.2%<br>&#10005; Guest complaintsRecords Hard to Trace<br>&#10005; HR EveryMonthSpends 3-5 itemsWork days<br>&#10005; New stores cannot quicklyReplicate</p>
     </div>
     <div class="ccard" style="border-top:3px solid var(--red);padding:18px;display:none">
       <h3 style="font-size:13px;color:var(--red-l);margin-bottom:8px">Housekeeping management</h3>
-      <p style="font-size:11px;line-height:1.65">&#10005; SettlementComplex · Error rate 3.2%<br>&#10005; HR 每MonthSpends 3-5 itemsWork days<br>&#10005; Employees Cannot Check Performance in Real-time<br>&#10005; New stores cannot quicklyReplicate</p>
+      <p style="font-size:11px;line-height:1.65">&#10005; SettlementComplex · Error rate 3.2%<br>&#10005; HR EveryMonthSpends 3-5 itemsWork days<br>&#10005; Employees Cannot Check Performance in Real-time<br>&#10005; New stores cannot quicklyReplicate</p>
     </div>
     <div class="ccard" style="border-top:3px solid var(--red);padding:18px">
       <h3 style="font-size:13px;color:var(--red-l);margin-bottom:8px">Attendance & Scheduling</h3>
-      <p style="font-size:11px;line-height:1.65">&#10005; Supervisors每days 2-3h HandlingExceptions<br>&#10005; PaperApprovalLag 2-3 days<br>&#10005; 95 后Satisfaction仅 62 分<br>&#10005; Inaccurate overtime tracking · Legal risk</p>
+      <p style="font-size:11px;line-height:1.65">&#10005; SupervisorsEverydays 2-3h HandlingExceptions<br>&#10005; PaperApprovalLag 2-3 days<br>&#10005; 95 AfterSatisfactionOnly 62 Point<br>&#10005; Inaccurate overtime tracking · Legal risk</p>
     </div>
     <div class="ccard" style="border-top:3px solid var(--red);padding:18px">
       <h3 style="font-size:13px;color:var(--red);margin-bottom:8px">HR Full Process & Talent Management</h3>
-      <p style="font-size:11px;line-height:1.65">&#10005; Onboarding procedures missed 2.3 项<br>&#10005; Offer Acceptance rate declined 8%<br>&#10005; Full lifeWeekPeriod data not captured<br>&#10005; ResumeScreeningTime-consuming · Easy to miss talent</p>
+      <p style="font-size:11px;line-height:1.65">&#10005; Onboarding procedures missed 2.3 Item<br>&#10005; Offer Acceptance rate declined 8%<br>&#10005; Full lifeWeekPeriod data not captured<br>&#10005; ResumeScreeningTime-consuming · Easy to miss talent</p>
     </div>
     <div class="ccard" style="border-top:3px solid var(--gold);padding:18px">
       <h3 style="font-size:13px;color:var(--gold);margin-bottom:8px">SPA / Membership management</h3>
-      <p style="font-size:11px;line-height:1.65">&#10005; Excel manual work · Renewal rate仅 35%<br>&#10005; itemsPersonalizationRecommendationConversion rate为 0<br>&#10005; Multi-channelData inconsistency<br>&#10005; Old customersDuplicate registration</p>
+      <p style="font-size:11px;line-height:1.65">&#10005; Excel manual work · Renewal rateOnly 35%<br>&#10005; itemsPersonalizationRecommendationConversion rate is 0<br>&#10005; Multi-channelData inconsistency<br>&#10005; Old customersDuplicate registration</p>
     </div>
     <div class="ccard" style="border-top:3px solid var(--gold);padding:18px">
       <h3 style="font-size:13px;color:var(--gold);margin-bottom:8px">Finance & Administration</h3>
-      <p style="font-size:11px;line-height:1.65">&#10005; ReimbursementWeek期 10 days<br>&#10005; InvoiceVerification 5 Minutes/sheets<br>&#10005; ContractSearch 30 Minutes<br>&#10005; Missing procurement price comparison</p>
+      <p style="font-size:11px;line-height:1.65">&#10005; ReimbursementWeekPeriod 10 days<br>&#10005; InvoiceVerification 5 Minutes/sheets<br>&#10005; ContractSearch 30 Minutes<br>&#10005; Missing procurement price comparison</p>
     </div>
   </div>
 </section>
@@ -496,13 +496,13 @@ footer{text-align:center;padding:16px;font-size:11px;color:var(--t3);background:
     </div>
     <!-- Right：Matrix -->
     <div class="matrix-wrap" style="padding-left:44px">
-      <div class="matrix-y-label">影 响 力</div>
+      <div class="matrix-y-label">Shadow Sound Power</div>
       <div class="matrix-axis-marker" style="left:18px;top:4px;font-weight:700;color:var(--gold)">High</div>
       <div class="matrix-axis-marker" style="left:18px;bottom:4px">Low</div>
       <div class="matrix-container">
         <div class="matrix-cell" style="background:rgba(196,163,90,.07);border:2px solid rgba(196,163,90,.3);border-radius:12px 4px 4px 4px">
           <h3 style="color:var(--gold)">Quick Wins</h3><div class="cell-sub" style="color:var(--gold-l)">HighImpact · LowDifficulty</div>
-          <div style="display:flex;flex-direction:column;gap:4px"><div class="matrix-tag" style="background:rgba(196,163,90,.12)">Front deskHousekeeping report automation</div><div class="matrix-tag" style="background:rgba(196,163,90,.12)">Attendance & SchedulingDigitalization</div><div class="matrix-tag" style="background:rgba(196,163,90,.12)">HR ResumeScreening与OnboardingProcess</div></div>
+          <div style="display:flex;flex-direction:column;gap:4px"><div class="matrix-tag" style="background:rgba(196,163,90,.12)">Front deskHousekeeping report automation</div><div class="matrix-tag" style="background:rgba(196,163,90,.12)">Attendance & SchedulingDigitalization</div><div class="matrix-tag" style="background:rgba(196,163,90,.12)">HR ResumeScreening <span class="gl">&</span> OnboardingProcess</div></div>
         </div>
         <div class="matrix-cell" style="background:rgba(166,25,46,.04);border:2px solid rgba(166,25,46,.2);border-radius:4px 12px 4px 4px">
           <h3 style="color:var(--red-l)">Strategic Zone</h3><div class="cell-sub" style="color:var(--red-l);opacity:.7">HighImpact · High difficulty</div>
@@ -517,7 +517,7 @@ footer{text-align:center;padding:16px;font-size:11px;color:var(--t3);background:
           <div style="display:flex;flex-direction:column;gap:4px"><div class="matrix-tag" style="background:rgba(255,255,255,.04);color:var(--t2)">PMS Integration</div><div class="matrix-tag" style="background:rgba(255,255,255,.04);color:var(--t2)">Group system integration</div></div>
         </div>
       </div>
-      <div class="matrix-x-label"><span style="float:left">Low</span>实 施 难 度<span style="float:right">High</span></div>
+      <div class="matrix-x-label"><span style="float:left">Low</span>Real Implement Hard Degree<span style="float:right">High</span></div>
     </div>
   </div>
   <div class="quote" style="margin-top:12px;text-align:center;font-style:normal;font-size:11px">
@@ -535,16 +535,16 @@ footer{text-align:center;padding:16px;font-size:11px;color:var(--t3);background:
       <div style="flex-shrink:0;width:100px;border-radius:8px;overflow:hidden;border:1px solid rgba(196,163,90,.12)"><img src="poc-housekeeping.png" alt="Housekeeping settlement" style="width:100%;display:block"></div>
       <div style="flex:1;min-width:0">
         <h3 style="font-size:13px;color:var(--gold);margin-bottom:4px">Voice input · Housekeeping automaticSettlement</h3>
-        <p style="font-size:11px;color:var(--t2);line-height:1.6;margin-bottom:6px">Wukong agent enables voice input auto-summary，HDA One-click report generation，将 HR From the tedious Excel Liberated from computing，Focus on talent development and employee care。</p>
-        <div style="padding:4px 8px;background:rgba(196,163,90,.08);border-radius:5px;display:inline-block;font-size:11px;font-weight:700;color:var(--gold)">每daysSave 2 Hours</div>
+        <p style="font-size:11px;color:var(--t2);line-height:1.6;margin-bottom:6px">Wukong agent enables voice input auto-summary，HDA One-click report generation，Will HR From the tedious Excel Liberated from computing，Focus on talent development and employee care。</p>
+        <div style="padding:4px 8px;background:rgba(196,163,90,.08);border-radius:5px;display:inline-block;font-size:11px;font-weight:700;color:var(--gold)">EverydaysSave 2 Hours</div>
       </div>
     </div>
     <div class="ccard" style="padding:16px;border-top:3px solid var(--red);display:flex;gap:12px;align-items:start">
       <div style="flex-shrink:0;width:70px;border-radius:8px;overflow:hidden;border:1px solid rgba(166,25,46,.12)"><img src="poc-ai-coach.png" alt="AI Training partner" style="width:100%;display:block"></div>
       <div style="flex:1;min-width:0">
         <h3 style="font-size:13px;color:var(--red-l);margin-bottom:4px">AI Training partner · Guest complaintsScenario simulation</h3>
-        <p style="font-size:11px;color:var(--t2);line-height:1.6;margin-bottom:6px">WukongProvide multi-scenario conversation simulation and intelligent scoring，Employees can practice independently at any time，Standardized service quality，为 HR Free up hundreds of hours of coaching time。</p>
-        <div style="padding:4px 8px;background:rgba(166,25,46,.08);border-radius:5px;display:inline-block;font-size:11px;font-weight:700;color:var(--red-l)">为 HR Save hundreds of hours</div>
+        <p style="font-size:11px;color:var(--t2);line-height:1.6;margin-bottom:6px">WukongProvide multi-scenario conversation simulation and intelligent scoring，Employees can practice independently at any time，Standardized service quality，For HR Free up hundreds of hours of coaching time。</p>
+        <div style="padding:4px 8px;background:rgba(166,25,46,.08);border-radius:5px;display:inline-block;font-size:11px;font-weight:700;color:var(--red-l)">For HR Save hundreds of hours</div>
       </div>
     </div>
     <div class="ccard" style="padding:16px;border-top:3px solid var(--gold);display:flex;gap:12px;align-items:start">
@@ -588,7 +588,7 @@ footer{text-align:center;padding:16px;font-size:11px;color:var(--t3);background:
     <div style="background:var(--card);border:1px solid rgba(196,163,90,.1);border-radius:14px;padding:22px">
       <div style="font-size:13px;font-weight:700;color:var(--gold);margin-bottom:12px">Employee open feedback</div>
       <div class="fb-item"><div class="fb-icon">&#x1F4A1;</div><div><div class="fb-q">Join AI Smarter</div><div class="fb-s">Qianjiang Marriott — Employees proactively request AI Requests</div></div></div>
-      <div class="fb-item"><div class="fb-icon">&#x2B50;</div><div><div class="fb-q">Help employees grow</div><div class="fb-s">Qianjiang Marriott — Tool valueUp升toTalent development</div></div></div>
+      <div class="fb-item"><div class="fb-icon">&#x2B50;</div><div><div class="fb-q">Help employees grow</div><div class="fb-s">Qianjiang Marriott — Tool valueUpUptoTalent development</div></div></div>
       <div class="fb-item"><div class="fb-icon">&#x1F680;</div><div><div class="fb-q">Hope to better improveHighWork efficiency</div><div class="fb-s">Qianjiang Marriott — Efficiency is core expectation</div></div></div>
       <div class="fb-item"><div class="fb-icon">&#x1F3E8;</div><div><div class="fb-q">Expect adaptation to different operation modelsMarriott Hotel</div><div class="fb-s">Sheraton Xixi — Already thinking about group promotion</div></div></div>
       <div class="fb-item"><div class="fb-icon">&#x2728;</div><div><div class="fb-q">Look forward to more powerful features</div><div class="fb-s">Sheraton Xixi — Full of expectations for product iteration</div></div></div>
@@ -597,7 +597,7 @@ footer{text-align:center;padding:16px;font-size:11px;color:var(--t3);background:
   <div class="shift-strip">
     <div class="shift-lbl">Mindset shift</div>
     <div class="shift-flow">
-      <div class="shift-node"><div class="shift-icon">&#x1F612;</div><div class="shift-t">Resistance</div><div class="shift-d">"又Up新System？"</div></div>
+      <div class="shift-node"><div class="shift-icon">&#x1F612;</div><div class="shift-t">Resistance</div><div class="shift-d">"AgainUpNewSystem？"</div></div>
       <div class="shift-arr">&#x2192;</div>
       <div class="shift-node"><div class="shift-icon">&#x1F914;</div><div class="shift-t">Probe</div><div class="shift-d">"Try it firstEasy to use"</div></div>
       <div class="shift-arr">&#x2192;</div>
@@ -694,7 +694,7 @@ footer{text-align:center;padding:16px;font-size:11px;color:var(--t3);background:
     </div>
     <div style="background:var(--card);border:1px solid rgba(196,163,90,.12);border-radius:14px;padding:24px">
       <div style="font-size:12px;font-weight:700;color:var(--gold);margin-bottom:12px;letter-spacing:1px">Positioning & Division of Labor</div>
-      <p style="font-size:13px;color:var(--t2);line-height:1.8;margin:0 0 16px 0"><strong style="color:var(--gold)">Lingyang</strong>As the underlying platform for group-level omnichannel digital marketing，UndertakeMarriottMemberDigitalizationOperations的InfrastructureConstruction；<strong style="color:var(--gold)">DingTalkWukong</strong>Then target singleitemsHotel knowledge and business characteristics，Flexibly formulateitemsPersonalized marketing tasks，Accurately implement group strategiestoEvery store。</p>
+      <p style="font-size:13px;color:var(--t2);line-height:1.8;margin:0 0 16px 0"><strong style="color:var(--gold)">Lingyang</strong>As the underlying platform for group-level omnichannel digital marketing，UndertakeMarriottMemberDigitalizationOperations InfrastructureConstruction；<strong style="color:var(--gold)">DingTalkWukong</strong>Then target single-item Hotel knowledge and business characteristics，Flexibly formulate Personalized marketing tasks，Accurately implement group strategies to Every store。</p>
       <div style="display:flex;gap:10px">
         <div style="flex:1;padding:12px;background:rgba(196,163,90,.06);border-radius:10px;text-align:center;border:1px solid rgba(196,163,90,.1)">
           <div style="font-size:11px;color:var(--t3);margin-bottom:3px">Lingyang</div>
@@ -721,11 +721,11 @@ footer{text-align:center;padding:16px;font-size:11px;color:var(--t3);background:
         <li>IT Construction site GPNS Compliance diagnosis</li>
         <li>HighAutomatic identification of critical defects and three-layer attribution analysis</li>
         <li>Rectification tasks are automatically created and assigned</li>
-        <li>DingTalkInstant notification push ensures responsibilityto人</li>
+        <li>DingTalkInstant notification push ensures responsibilitytoPeople</li>
       </ul>
       <div style="font-size:11px;font-weight:700;color:var(--red-l);letter-spacing:1px;margin-top:4px">Battle-tested Results</div>
       <ul class="result-list">
-        <li>Identify 3 项HighCritical defects：</li>
+        <li>Identify 3 HighCritical defects：</li>
         <li style="padding-left:28px">a. Host exposed（GPNS v3.2 §2.4.1）</li>
         <li style="padding-left:28px">b. Cable hybrid layout（TIA-568-C.2）</li>
         <li style="padding-left:28px">c. Missing UPS（NEC Art.708）</li>
@@ -753,9 +753,9 @@ footer{text-align:center;padding:16px;font-size:11px;color:var(--t3);background:
       <div style="background:var(--card);border:1px solid rgba(166,25,46,.12);border-radius:12px;padding:18px">
         <div style="font-size:11px;font-weight:700;color:var(--red-l);letter-spacing:1px;margin-bottom:10px">Core Pain Points</div>
         <ul class="cap-list">
-          <li>Supervisors每days花 2-3 Hours manually handling scheduling exceptions</li>
-          <li>PaperApprovalLag 2-3 days，Inaccurate overtime tracking确</li>
-          <li>95 Post-employeeSatisfaction仅 62 分，Scheduling lacks fairness and transparency</li>
+          <li>SupervisorsEverydaysFlower 2-3 Hours manually handling scheduling exceptions</li>
+          <li>PaperApprovalLag 2-3 days，Inaccurate overtime trackingSure</li>
+          <li>95 Post-employeeSatisfactionOnly 62 Point，Scheduling lacks fairness and transparency</li>
           <li>New store openingCannot quicklyReplicateSchedulingTemplate</li>
         </ul>
       </div>
@@ -803,7 +803,7 @@ footer{text-align:center;padding:16px;font-size:11px;color:var(--t3);background:
             <div style="flex-shrink:0;width:22px;height:22px;border-radius:50%;background:var(--red);color:#fff;display:flex;align-items:center;justify-content:center;font-size:11px;font-weight:800">1</div>
             <div>
               <div style="font-size:12px;font-weight:700;color:var(--t1);margin-bottom:2px">ResumeScreeningEfficiencyLow</div>
-              <p style="font-size:11px;color:var(--t2);line-height:1.5;margin:0">500 份Resume从 3 days &#8594; 2 Hours<br>AI 30 秒/Automatic scoring matching</p>
+              <p style="font-size:11px;color:var(--t2);line-height:1.5;margin:0">500 CopyResumeFrom 3 days &#8594; 2 Hours<br>AI 30 Second/Automatic scoring matching</p>
             </div>
           </div>
           <div style="display:flex;gap:10px;align-items:flex-start">
@@ -824,7 +824,7 @@ footer{text-align:center;padding:16px;font-size:11px;color:var(--t3);background:
       </div>
       <div style="background:rgba(196,163,90,.06);border:1px solid rgba(196,163,90,.15);border-radius:12px;padding:16px">
         <div style="font-size:11px;font-weight:700;color:var(--gold);margin-bottom:6px;letter-spacing:1px">Core value</div>
-        <p style="font-size:12px;color:var(--t2);line-height:1.65;margin:0">HR Liberated from mechanical work，Focus on interview communication、CandidateExperience、Employer branding etc.<strong style="color:var(--gold)">High-value work</strong>；During new hotel openings、Peak season temporary laborOther scenariosDown找toSuitable talent，Quickly fill positions。</p>
+        <p style="font-size:12px;color:var(--t2);line-height:1.65;margin:0">HR Liberated from mechanical work，Focus on interview communication、CandidateExperience、Employer branding etc.<strong style="color:var(--gold)">High-value work</strong>；During new hotel openings、Peak season temporary laborOther scenariosDownFindtoSuitable talent，Quickly fill positions。</p>
       </div>
     </div>
     <div style="display:flex;flex-direction:column;gap:10px;min-height:0">
@@ -839,12 +839,12 @@ footer{text-align:center;padding:16px;font-size:11px;color:var(--t3);background:
 <!-- ===== P15: Wukong positioning summary ===== -->
 <section class="page" id="p15" style="padding-top:68px;padding-bottom:28px">
   <div class="stag">Platform positioning</div>
-  <h2 class="stitle" style="font-size:26px;margin-bottom:6px">DingTalk与Wukong：<span class="gl">Foundation capabilities and intelligent hub</span></h2>
+  <h2 class="stitle" style="font-size:26px;margin-bottom:6px">DingTalk <span class="gl">&</span> Wukong：<span class="gl">Foundation capabilities and intelligent hub</span></h2>
   <p class="sdesc" style="margin-bottom:18px">DingTalkProvide standardized collaboration foundation，Wukong asCore intelligent partner drives businessInnovationAnd strategic implementation</p>
   
   <div style="display:flex;flex-direction:column;gap:10px;flex:1;min-height:0;max-width:900px;margin:0 auto">
     <div style="background:var(--card);border:1px solid rgba(196,163,90,.15);border-radius:12px;padding:8px;overflow:hidden;flex:1">
-      <img src="wukong-positioning.png" alt="DingTalk与WukongPositioning architecture diagram" style="width:100%;border-radius:8px;display:block;object-fit:contain;max-height:calc(100vh - 240px);background:#fff">
+      <img src="wukong-positioning.png" alt="DingTalk <span class="gl">&</span> WukongPositioning architecture diagram" style="width:100%;border-radius:8px;display:block;object-fit:contain;max-height:calc(100vh - 240px);background:#fff">
     </div>
     <div style="background:rgba(196,163,90,.06);border:1px solid rgba(196,163,90,.15);border-radius:10px;padding:14px;text-align:center">
       <div style="font-size:12px;color:var(--t2);line-height:1.7;margin:0">
@@ -878,7 +878,7 @@ footer{text-align:center;padding:16px;font-size:11px;color:var(--t3);background:
 <!-- ===== P17: Operations AssuranceAnd communication coordination mechanism（Original image） ===== -->
 <section class="page" id="p18" style="padding-top:68px;padding-bottom:28px">
   <div class="stag">Operations Assurance</div>
-  <h2 class="stitle" style="font-size:26px">Operations Assurance与<span class="gl">Communication coordination mechanism</span></h2>
+  <h2 class="stitle" style="font-size:26px">Operations Assurance <span class="gl">&</span> <span class="gl">Communication coordination mechanism</span></h2>
   <p class="sdesc" style="margin-bottom:18px">Three major mechanisms ensure efficient project collaboration、Rapid response、Precise implementation</p>
   <div style="display:flex;justify-content:center;align-items:center;flex:1;min-height:0">
     <div style="background:#fff;border:1px solid rgba(196,163,90,.15);border-radius:14px;padding:12px;max-width:900px;width:100%">
@@ -912,7 +912,7 @@ footer{text-align:center;padding:16px;font-size:11px;color:var(--t3);background:
 <section class="page" id="p21" style="padding-top:68px;padding-bottom:28px">
   <div class="stag">Commercialization</div>
   <h2 class="stitle" style="font-size:26px">Marriott × DingTalk<span class="gl">ProjectCost Estimation</span></h2>
-  <p class="sdesc">三YearPlan · From infrastructure benchmark to large-scale coverage</p>
+  <p class="sdesc">ThreeYearPlan · From infrastructure benchmark to large-scale coverage</p>
 
   <div style="max-width:780px;margin:0 auto;width:100%">
     <table class="cost-table">
@@ -957,17 +957,17 @@ footer{text-align:center;padding:16px;font-size:11px;color:var(--t3);background:
     <div style="background:var(--card);border:1px solid rgba(196,163,90,.12);border-radius:12px;padding:18px;text-align:center">
       <div style="font-size:10px;color:var(--t3);margin-bottom:4px;letter-spacing:1px">2026 · FirstYear</div>
       <div style="font-size:18px;font-weight:900;background:var(--gd-h);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">Infrastructure + Benchmark</div>
-      <div style="font-size:11px;color:var(--t2);margin-top:6px;line-height:1.5">100 hotels · Single store 4 万<br>Establish scalableReplicate的Benchmark Case</div>
+      <div style="font-size:11px;color:var(--t2);margin-top:6px;line-height:1.5">100 hotels · Single store 4 0K<br>Establish scalableReplicate Benchmark Case</div>
     </div>
     <div style="background:var(--card);border:1px solid rgba(196,163,90,.12);border-radius:12px;padding:18px;text-align:center">
       <div style="font-size:10px;color:var(--t3);margin-bottom:4px;letter-spacing:1px">2027 · SecondYear</div>
       <div style="font-size:18px;font-weight:900;background:var(--gd-h);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">Operations + Coverage</div>
-      <div style="font-size:11px;color:var(--t2);margin-top:6px;line-height:1.5">400 hotels · Single store 1.75 万<br>Scaled rollout and operations deepening</div>
+      <div style="font-size:11px;color:var(--t2);margin-top:6px;line-height:1.5">400 hotels · Single store 1.75 0K<br>Scaled rollout and operations deepening</div>
     </div>
     <div style="background:var(--card);border:1px solid rgba(196,163,90,.12);border-radius:12px;padding:18px;text-align:center">
       <div style="font-size:10px;color:var(--t3);margin-bottom:4px;letter-spacing:1px">2028 · ThirdYear</div>
       <div style="font-size:18px;font-weight:900;background:var(--gd-h);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text">Improve efficiency + Innovation</div>
-      <div style="font-size:11px;color:var(--t2);margin-top:6px;line-height:1.5">1,000 hotels · Single store 0.9 万<br>Efficiency-driven and productInnovation</div>
+      <div style="font-size:11px;color:var(--t2);margin-top:6px;line-height:1.5">1,000 hotels · Single store 0.9 0K<br>Efficiency-driven and productInnovation</div>
     </div>
   </div>
 </section>
